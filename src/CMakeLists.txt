@@ -3,8 +3,8 @@
 #
 # Common usages for a C or C++ library and a Python script, but tweek them to your needs
 #
-# PID_Component(
-#   my-lib
+PID_Component(
+   STATIC_LIB NAME hello-static DIRECTORY hello
 #   DESCRIPTION ...
 #   USAGE <list of headers to include to use the component>
 #   DOCUMENTATION mylib_usage.md
@@ -13,7 +13,7 @@
 #   C_STANDARD 11
 #   CXX_STANDARD 17
 #   WARNING_LEVEL MORE
-# )
+)
 #
 # PID_Component(
 #   my-script
