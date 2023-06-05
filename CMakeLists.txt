@@ -7,6 +7,8 @@ project(my_first_PID_package)
 
 PID_Package(
     AUTHOR             Fabian_Lopez
+    ADDRESS git@github.com:fabianlopezch/my_first_PID_package.git
+
     YEAR               2023
     LICENSE            CeCILL
     DESCRIPTION        TODO: input a short description of package my_first_PID_package utility here
