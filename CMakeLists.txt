@@ -7,6 +7,8 @@ project(my_first_PID_package)
 
 PID_Package(
     AUTHOR             Fabian_Lopez
+    INSTITUTION	       Istituto Italiano di Tecnologia IIT
+    MAIL               fabian.lopezchamorro@iit.it
     ADDRESS git@github.com:fabianlopezch/my_first_PID_package.git
 
     YEAR               2023
